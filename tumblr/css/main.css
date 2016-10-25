@@ -1,0 +1,38 @@
+
+.container{
+	font-family: Courier;
+}
+.header{
+	padding-top: 40px;
+	padding-bottom: 40px;
+	font-size: 34px;
+	font-weight: bold;
+	color: #666465;
+}
+.posts{
+	margin: auto;
+	color: #4C4B4C;
+}
+.post_text,  .post_sourse{
+	font-size: 17px;
+}
+.post{
+	padding: 20px;
+	border: 3px solid grey;
+	margin-bottom: 20px;
+}
+.quotes{
+	width: 40px;
+	height: auto;
+	vertical-align: text-bottom;
+}
+.tags{
+		font-size: 14px;
+}
+.btn{
+	margin-top: 30px;
+	border:1.5px solid grey;
+	border-radius: 0px;
+	font-size: 17px;
+	color: #4C4B4C;
+}

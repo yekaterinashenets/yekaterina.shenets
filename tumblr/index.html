@@ -1,0 +1,36 @@
+   <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>tumblr api js</title>
+    
+    <link rel='stylesheet' href='css/bootstrap.css' type='text/css'>
+    <link rel='stylesheet' href='css/main.css' type='text/css' >
+    <script src="js/jquery.min.js"></script>
+    <script src="js/handlebars.js"></script>
+    <script src="js/main.js"></script>
+ </head>
+  <body>
+      <div class="container">
+             <p class="header">Цитаты  блога russianquotes из tumblr, содержащие #жизнь</p> 
+         <div class="row posts">
+         </div>
+ 			      <script id="template" type="text/x-handlebars-template">
+              {{#each response.posts}} 
+              <div class="row">
+              <div class="col-lg-2 "></div>
+                <div class="col-lg-8 post">
+                      <h3 class="blog_name">{{blog_name}}</h3>
+                            <p class="post_text"><img src="images/quotes.png" class="quotes">{{{text}}}</p>
+                            <p class="post_sourse"><i>- {{source}}</i></p>
+                            <p class="tags"><u>Теги:</u> {{{tags}}}</p>
+                          <p><a class="btn  btn-xs" role="button" href={{post_url}}>Перейти к посту в tumblr</a></p>
+                  
+                </div>
+                <div class="col-lg-2 "></div>
+              </div>
+              {{/each}} 
+			     </script>
+      </div>
+  </body>
+</html> 
