@@ -22,5 +22,5 @@ let getInfo = () => {
 
 $(document).ready(function () {
     getInfo();
-    //setInterval(getInfo, 10000);
+    setInterval(getInfo, 10000);
 })
