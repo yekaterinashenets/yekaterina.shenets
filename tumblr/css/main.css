@@ -2,7 +2,7 @@
 .container{
 	font-family: Courier;
 }
-.header{
+#header{
 	padding-top: 40px;
 	padding-bottom: 40px;
 	font-size: 34px;
@@ -35,4 +35,12 @@
 	border-radius: 0px;
 	font-size: 17px;
 	color: #4C4B4C;
+}
+#error{
+	display: none;
+	padding: 20px;
+	border: 2px solid red;
+	margin-bottom: 20px;
+	color: red;
+	font-size: 20px;
 }

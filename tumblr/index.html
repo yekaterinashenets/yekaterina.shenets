@@ -12,8 +12,10 @@
  </head>
   <body>
       <div class="container">
-             <p class="header">Цитаты  блога russianquotes из tumblr, содержащие #жизнь</p> 
+             <p id="header"></p> 
          <div class="row posts">
+         </div>
+         <div id="error">
          </div>
  			      <script id="template" type="text/x-handlebars-template">
               {{#each response.posts}} 
